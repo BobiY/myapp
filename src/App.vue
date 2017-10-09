@@ -1,7 +1,8 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <router-view/>
+    <router-view />
+    <router-link :to="{ path: '/' }">返回主页</router-link> 
   </div>
 </template>
 
