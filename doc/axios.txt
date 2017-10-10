@@ -1,0 +1,9 @@
+
+
+用于发送 ajax 请求
+
+    axios({
+        url,params
+    })  类似于 jq 的 ajax
+
+    

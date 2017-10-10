@@ -1,6 +1,9 @@
 <template>
   <div class="canvas">
       <h1>Canvas</h1>
+      <div class="aa">
+        dsfsdfdfs
+      </div>
       <el-switch
         v-model="value1"
         on-text=""
@@ -21,6 +24,24 @@
         value1: true,
         value2: true
       }
+    },
+    methods:{
+
+    },
+    mounted:function(){
+      this.$ajax.get("aa/bb").then( (data) => {
+        console.log(data);
+      } )
     }
   };
 </script>
+
+<style lang="less" scoped>
+  .canvas{
+      background: #333;
+      .aa{
+        background: #000;
+      }
+    }
+</style>
+
