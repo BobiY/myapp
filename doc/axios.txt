@@ -6,4 +6,7 @@
         url,params
     })  类似于 jq 的 ajax
 
+axios 再此项目中是直接挂在载 Vue 的原型上的$ajax 上的，使用时直接使用 this.$ajax 即可
+    
+
     

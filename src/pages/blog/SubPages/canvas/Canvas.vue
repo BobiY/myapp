@@ -29,7 +29,7 @@
 
     },
     mounted:function(){
-      this.$ajax.get("aa/bb").then( (data) => {
+      this.$ajax("aa/bb").then( (data) => {
         console.log(data);
       } )
     }
